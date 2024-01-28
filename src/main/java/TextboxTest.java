@@ -11,7 +11,7 @@ public class TextboxTest {
         // input data
         // click submit
 
-        System.setProperty("webdriver.chrome.driver","/Users/thuy/Documents/Automation/03Tools");
+        System.setProperty("webdriver.chrome.driver","/Users/thuy/Documents/Automation/03Tools/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/");
         driver.findElement(By.xpath("//h5[text()='Elements']")).click();
